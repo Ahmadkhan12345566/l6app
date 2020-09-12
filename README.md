@@ -6,3 +6,4 @@ laravel practice
 - laravel file structure and booting system.
 - laravel routing methods hhtp get(with parameter& dynamic parameter),view,redirect,permanentRedirect and view.
 - laravel MVC use.
+- laravel Artisan Command Line Utility.

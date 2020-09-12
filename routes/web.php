@@ -37,3 +37,4 @@ Route::get('/home', function () { //clyser function
 
 Route::view('/','welcome',['name'=>"Arslan"]);
 Route::get('/welcome/{name?}','WelcomeController@welcome');
+Route::resource('/welcome','WelcomeController');
