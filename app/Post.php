@@ -8,6 +8,6 @@ class Post extends Model
 {
     //
     public function data(){
-        return ['name'=> 'Arslan Ahmad'];
+        return [['name'=> 'Arslan Ahmad'],['name'=>'Awais Ahmed']];
     }
 }
