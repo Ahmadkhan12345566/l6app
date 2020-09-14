@@ -42,6 +42,11 @@ class PostController extends Controller
     {
         //
         $data= $request->all();
+//        return $request->file("photo")->store("images","public");
+        $filename=sprintf("image_%s.jpg",1);
+//        return response('Hello World', 200)
+//            ->header('Content-Type', 'text/plain');
+//        return $request->file("photo")->storeAs("images",$filename,"public");
         return view('posts.show',compact('data'));
     }
 
