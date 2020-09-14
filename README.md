@@ -9,3 +9,4 @@ laravel practice
 - laravel Artisan Command Line Utility.
 - laravel Requests.
 - laravel Responses ,Proxies.
+- laravel Forms and FormRequest Validation.
