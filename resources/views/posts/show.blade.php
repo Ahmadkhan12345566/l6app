@@ -1,12 +1,12 @@
-<html>
-<head>
-    Test
-</head>
-<body>
+@extends('layouts.posts')
+
+@section('title', 'Post')
+
+@section('content')
 <ul>
 <!--    --><?php //foreach($data as $row){?>
     <li>{{$data['title']}}</li>
 <!--    --><?php //} ?>
 </ul>
-</body>
-</html>
+@endsection
+

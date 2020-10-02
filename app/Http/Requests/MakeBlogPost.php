@@ -23,7 +23,13 @@ class MakeBlogPost extends FormRequest
      */
     public function rules()
     {
-       return ['title'=>'required','photo'=>'required'];
+       return [
+           'title'=>'required',
+           'photo'=>'required',
+           'tos'=>'accepted',
+           'web'=>'active_url',
+           'dt'=>'required|date|before_or_equal:date',
+       ];
     }
 
 //    /**
@@ -43,6 +49,8 @@ class MakeBlogPost extends FormRequest
      */
     public function attributes()
     {
-        return ["photo"=>"logo"];
+        return ["photo"=>"logo",
+            'title'=>"Title",
+            ];
     }
 }

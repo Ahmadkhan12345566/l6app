@@ -10,3 +10,4 @@ laravel practice
 - laravel Requests.
 - laravel Responses ,Proxies.
 - laravel Forms and FormRequest Validation.
+- laravel blade engines Template Inheritance.
