@@ -12,3 +12,4 @@ laravel practice
 - laravel Forms and FormRequest Validation.
 - laravel blade engines Template Inheritance.
 - laravel blade engines Components and Slots.
+- laravel blade engines Control Structures loops.
